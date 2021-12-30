@@ -2,11 +2,9 @@ const packingList = ["bowls", "plates", "pots", "pans", "eating utensils", "glas
 
 console.log("Kitchen stuff to pack:");
 
-for (let i = 0; i < packingList.length; i++) {
-  let a = 0;
-  if (packingList[i] === "plates") {
-    a = packingList[1];
-}
-console.log(a);
+i = 0;
+while (i < packingList.length) {
+  giconsole.log(packingList[i]);
+  i++;
 
 }
